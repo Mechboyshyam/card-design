@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box-shadow</title>
+        <style>
+           .container{
+            width: 300px;
+            background-color: #e6e6e6; 
+            border-radius: 25px;
+            border: solid;
+            align-content:stretch;
+           }
+
+           .card-img{
+            height: 150px;
+            width: 150px;
+            padding: 2px;
+            margin-left: 70px;
+            border-radius: 25px;
+            margin-top: 30px;
+            border: 0.5px solid black;
+            box-shadow: 0px 0px 4px 0px  black;
+           }
+           
+           .activa{
+            width: 160px;
+            position: relative;
+            left: 70px;
+            border-radius: 15px;
+            border: white;
+            font-size: large;
+            background-color: #e6e6e6;
+            
+           }
+           .activa:hover{
+            background-color: black;
+            color: white;
+            border-radius: 15px;
+            font-size: large;
+            
+           }
+
+           .bill{
+            margin-left: 12px;
+            margin-top: 8px;
+           }
+           .description{
+            margin-left: 12px;
+           }
+
+           .list{
+            margin-top: -1px;
+            margin-left: -11px;
+           }
+
+           .offer{
+            background-color: rgb(252, 252, 106);
+            padding-left: 5px;
+            padding-right: 5px;
+            font-size: 15px;
+            border-radius: 15px;
+           }       
+           .book{
+            text-align: center;
+            border: 1px double black;
+            width: 160px;
+            font-size: 20px;
+            border-radius: 10px;
+            margin-left: 60px;
+            margin-bottom: 15px;
+           } 
+           .book:hover{
+            background-color:yellow;
+            color: black;
+            cursor: pointer;
+           }
+           </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <img class="card-img" src="https://5.imimg.com/data5/UR/ID/GLADMIN-33062195/activa-i-250x250.jpg">
+            </div>
+            <button class="activa"><b>Activa-i &nbsp;125cc</b></button>
+            <div class="bill">
+                <b>Price:-</b><del style="color: red;">67,300/-</del> <span class="price"><b>54,500/- Only</b></span>
+                <span class="offer">19.10% OFF</span>
+            </div>
+            <p class="description"><b>Description</b>:-
+                 This is our Activa-i. This model launched in 2015 with 125CC engine. It is a standard model with light weight. 
+            </p>
+            <div> <b style="margin-left: 12px;">Specification:-</b>
+                <ul class="list">
+                    <li>Model: Activa-i</li>
+                    <li>Colour: White, Black and Purple</li>
+                    <li>Tank Capacity: 5.3L</li>
+                    <li>Mileage: 66km/l</li>
+                    <li>Fuel type: Petrol</li>
+                </ul>
+            </div>
+            <button class="book"><b>Book Now</b></button>
+        </div>
+    </body>
+</html>
